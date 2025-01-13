@@ -26,7 +26,7 @@ jobs:
           push: true
           tags: nvlkishor/wallet-week-18:latest
       
-      -name: Verify pushed image
-       run: docker pull nvlkishor/wallet-week-18:latest
+      - name: Verify pushed image
+        run: docker pull nvlkishor/wallet-week-18:latest
         
       
